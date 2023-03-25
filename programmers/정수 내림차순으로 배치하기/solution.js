@@ -3,3 +3,6 @@
 function solution(n) {
     return Number(n.toString().split("").sort((a,b)=>b-a).join("") )
 }
+
+
+//왜 풀렸는지 써보기
