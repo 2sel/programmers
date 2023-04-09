@@ -9,3 +9,4 @@ function solution(s){
     }
     return count === 0 ? true : false
 }
+// 다른 문제로 푸는 방법 찾아보기
