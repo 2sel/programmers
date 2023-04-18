@@ -2,4 +2,5 @@
 
 function solution(s) {
     return Number(s);
+    //return s/1 로도 풀이 가능
 }
