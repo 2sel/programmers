@@ -1,0 +1,16 @@
+// [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/12922
+
+function solution(n) {
+    // 최단 길이 - String.repeat 존재를 몰랐음...
+    return "수박".repeat(n).substring(0,n)
+
+//  let result = ""
+//    for(let i = 1; i<=n; i++){
+//        if(i % 2 === 0){
+//            result += "박"
+//        }else{
+//            result += "수"
+//        }
+//   }
+//    return result
+}
