@@ -11,3 +11,5 @@ function solution(angle) {
         return 4;
     }
 }
+
+// for문으로도 풀이 가능
