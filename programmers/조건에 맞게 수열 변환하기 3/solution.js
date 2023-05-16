@@ -9,3 +9,5 @@ function solution(arr, k) {
     }
     return answer;
 }
+
+//filter 사용이 가능한지 알아보기
