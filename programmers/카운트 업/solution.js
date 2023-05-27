@@ -9,3 +9,4 @@ function solution(start, end) {
 
     return answer;
 }
+//math.floor로도 풀이 가능?
