@@ -3,3 +3,4 @@
 function solution(num_list) {
     return num_list.findIndex(a => a<0)
 }
+// map으로도 풀이 가능한지 확인필요..!
