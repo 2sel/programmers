@@ -3,3 +3,4 @@
 function solution(str1, str2) {
     return str1.includes(str2) ? 1:2
 }
+// 다른 메서드 사용 가능확인
