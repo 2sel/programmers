@@ -15,3 +15,4 @@ rl.on('line', function (line) {
     str2 = input[1];
     console.log(str1+str2)
 });
+// +나 join으로 추가해주는 코드를 추가하면 출력이 가능함
