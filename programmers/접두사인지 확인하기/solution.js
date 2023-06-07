@@ -1,12 +1,17 @@
 // [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/181906
 
 function solution(my_string, is_prefix) {
-    const result = []
-    const prefixies = [...my_string].reduce((acc, cur, idx) => {
-        const sliceWord = my_string.slice(0, idx+1)
-        
-        return [...acc, sliceWord]
-    }, [])
-    
-    return prefixies.includes(is_prefix) ? 1 : 0
+    var answer = 0;
+
+    if(my_string.length < is_prefix.length){
+        return 0;
+    }
+
+    for(let i = 0; i<is_prefix.length; i++){
+        if(my_string[i] !== is_prefix[i]){
+            return 0;
+        }
+    }
+
+    return 1;;
 }
