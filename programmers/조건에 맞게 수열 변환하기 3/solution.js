@@ -9,3 +9,5 @@ function solution(arr, k) {
     }
     return answer;
 }
+
+//const solution = (arr, k) => arr.map(v => k % 2 ? v * k : v + k) 삼항 연산자 사용을 적극적으로 해보기(다시 풀기)
