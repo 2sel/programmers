@@ -16,4 +16,4 @@ rl.on('line', function (line) {
     console.log(str.repeat(n))
 });
 
-// repeat 메서드 사용
+// repeat 메서드 사용. str.repeat(count);
