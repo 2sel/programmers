@@ -15,3 +15,5 @@ rl.on('line', function (line) {
     n = Number(input[1]);
     console.log(str.repeat(n))
 });
+
+// repeat 메서드 사용
