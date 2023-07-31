@@ -32,3 +32,4 @@ function solution(letter) {
     
     return letter.split(' ').map(a => morse[a]).join('')
 }
+// 제한사항에서 언급 된 공백을 제거 후 result에 맞게 따옴표 추가
