@@ -5,6 +5,7 @@ function solution(left, right) {
     
     for(let i = left; i <=right; i++){
         if(Number.isInteger(Math.sqrt(i))){
+            // sqrt = 제곱근
             answer -= i;
         } else {
             answer += i;
