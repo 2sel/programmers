@@ -10,3 +10,5 @@ function solution(n, m) {
     
     return [greatest(n,m), least(n,m)]
 }
+// 유클리드 호제법으로 푸는 문제.
+// https://chanhuiseok.github.io/posts/algo-41/
