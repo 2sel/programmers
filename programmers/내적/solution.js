@@ -8,3 +8,4 @@ function solution(a, b) {
     }
     return answer
 }
+// reduce로도 풀이가 가능하다고 한다.
