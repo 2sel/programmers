@@ -13,3 +13,4 @@ function solution(arr, flag) {
     
     return answer
 }
+// 다른 방법으로는 forEach를 사용하는 경우가 있다
