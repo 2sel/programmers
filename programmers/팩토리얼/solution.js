@@ -6,3 +6,5 @@ function solution(n) {
     while (f*i < n) f*=++i;
     return i;
 }
+
+// for문으로도 풀이 가능 
