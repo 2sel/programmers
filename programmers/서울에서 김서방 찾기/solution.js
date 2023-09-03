@@ -9,3 +9,5 @@ function solution(seoul) {
     }
     return answer
 }
+// 잘 안풀렸던 이유는 ${} 사용법을 몰라서였다...
+// 참고 https://velog.io/@ieed0205/Mybatis-%EC%B0%A8%EC%9D%B4%EC%A0%90
