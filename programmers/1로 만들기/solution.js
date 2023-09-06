@@ -1,21 +1,16 @@
 // [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/181880
 
 function solution(num_list) {
-     let count = 0 
-    for (num of num_list){
-        let number = num; 
-        while (true){ 
-            if (number === 1){ 
-                break
-            }
-            if (number % 2 === 0){ 
-                number = number / 2
-                count += 1 
-            }else{ // 홀수일 때
-                number = (number - 1) / 2
-                count += 1 
-            }
+    let answer = 0;
+
+    for(let i = 0 ; i < num_list.length ; i++) {
+        let num = num_list[i];
+        while(num != 1) {
+            num = num % 2 == 0 ? num /2 : (num - 1) / 2
+            answer++;
         }
     }
-    return count
+    return answer;
 }
+// reduce로 한줄로 푼 것들이 있음
+// 동적계산법으로 푼다는건 알았으나, 잘 안풀렸는데 for문 안에 while이 있어야했다...
