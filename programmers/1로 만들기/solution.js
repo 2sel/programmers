@@ -1,6 +1,7 @@
 // [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/181880
 
 function solution(num_list) {
+    //    return num_list.map(v => v.toString(2).length - 1).reduce((a, c) => a + c); 로 한줄 풀이 가능
     let answer = 0;
 
     for(let i = 0 ; i < num_list.length ; i++) {
