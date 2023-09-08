@@ -14,3 +14,5 @@ function solution(n, slicer, num_list) {
             return num_list.slice(a, b + 1).filter((_, idx) => !(idx % c));
     }
 }
+
+// switch문은 생각하지 못했는데, if문보다 편한 것같아서 다시 작성했다!
