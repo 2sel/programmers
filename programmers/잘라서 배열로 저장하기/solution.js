@@ -9,3 +9,5 @@ function solution(my_str, n) {
     
     return answer
 }
+
+//for문의 조건이 i++줄 알고 작성했는데, 안풀려서 서치해봤더니 조건을 i+=n 설정하니 해결...!
