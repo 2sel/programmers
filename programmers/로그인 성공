@@ -21,3 +21,8 @@ function solution(id_pw, db) {
          match[id] !== pw
     ) return "wrong pw"
 }
+
+// 조건이 있다는 것들을 보고 if로 작성했으나, map과 삼항연산자로 3줄로 끝낼 수 있다...ㅜㅜ
+//  const [id, pw] = id_pw;
+//  const map = new Map(db);
+//  return map.has(id) ? (map.get(id) === pw ? 'login' : 'wrong pw') : 'fail';
