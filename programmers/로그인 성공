@@ -1,0 +1,23 @@
+// [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/120883
+
+function solution(id_pw, db) {
+    const [id,pw] = id_pw
+    const match = db.reduce((match, matchPass)=> {
+        match[matchPass[0]] = matchPass[1];
+        return match
+    },{})
+    if( 
+        // 로그인 성공
+        match[id] === pw){
+        return "login"
+    }
+    else if(
+        // 아이디 실패
+        match[id] == undefined
+    ){
+        return "fail"
+    }else if (
+        // 비밀번호 실패
+         match[id] !== pw
+    ) return "wrong pw"
+}
