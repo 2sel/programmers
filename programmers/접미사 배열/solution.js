@@ -9,3 +9,4 @@ function solution(my_string) {
     return answer.sort();
 }
 //substring, substr를 사용하지 않기 위해선 이 방법으로 풀어 푸는게 좋은 것 같다.
+// 순서는 sort로 마무리
