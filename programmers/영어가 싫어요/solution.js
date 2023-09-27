@@ -9,3 +9,4 @@ function solution(numbers) {
     
     return Number(numbers)
 }
+// 쉽게 푸는 해당 방법 외에 알아보기
