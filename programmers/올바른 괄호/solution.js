@@ -14,3 +14,13 @@ function solution(s){
     }
     return !stack
 }
+
+// 아주 좋은 풀이! 공부를 위해 달아둠!
+// let cum = 0
+//     for (let paren of s) {
+//         cum += paren === '('? 1: -1
+//         if(cum < 0) {
+//             return false
+//         }
+//     }
+//     return cum === 0? true: false;
