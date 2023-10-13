@@ -20,3 +20,6 @@ function solution(s, n) {
     }
     return answer;
 }
+
+
+// 와 정말 어렵다... 풀이 자체는 쉽지만 continue;를 넣을 생각을 전혀하지 못했다;;
