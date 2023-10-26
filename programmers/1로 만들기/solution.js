@@ -14,4 +14,4 @@ function solution(num_list) {
     return answer;
 }
 // reduce로 한줄로 푼 것들이 있음
-// 동적계산법으로 푼다는건 알았으나, 잘 안풀렸는데 for문 안에 while이 있어야했다...
+// 동적계산법으로 푼다는건 알았으나, 잘 안풀렸는데 for문 안에 while이 있어야했다... 다른 좋은 문제 풀이가 있다면 추가적으로 풀기
