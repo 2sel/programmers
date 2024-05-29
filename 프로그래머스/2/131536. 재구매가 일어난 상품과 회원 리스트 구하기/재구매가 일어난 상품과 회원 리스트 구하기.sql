@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+SELECT USER_ID, PRODUCT_ID
+FROM ONLINE_SALE
+-- 재구매한 데이터로 변경 - 두 데이터를 그룹으로 묶고 COUNT(*)
+GROUP BY  USER_iD, PRODUCT_ID
+HAVING COUNT(*) >= 2
+ORDER BY USER_ID, PRODUCT_ID DESC
