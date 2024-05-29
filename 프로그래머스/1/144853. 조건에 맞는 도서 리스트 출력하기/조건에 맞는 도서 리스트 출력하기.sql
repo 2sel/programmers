@@ -1,6 +1,10 @@
 -- 코드를 입력하세요
+-- DATE_FORMAT을 2021-02-05 형식으로 먼저 조회
 SELECT BOOK_ID, DATE_FORMAT(PUBLISHED_DATE, '%Y-%m-%d') AS PUBLISHED_DATE
 FROM BOOK
--- '2021'-PUBLISHED_DATE / CATEGORY - '인문' / 오름차순 - ASC
+--  조건 : '2021'-PUBLISHED_DATE / CATEGORY - '인문' / 오름차순 - ASC
+-- = 는 완전하게 일치, LIKE 는 유연하게 사용할 수 있는 연산자(따라서 조회 시간이 느림) 
 WHERE PUBLISHED_DATE LIKE '2021%' AND CATEGORY LIKE '인문'
+
+-- DATE = '2021' AND  CATEGORY = '인문'
 ORDER BY PUBLISHED_DATE ASC
