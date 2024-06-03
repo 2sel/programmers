@@ -1,0 +1,5 @@
+-- 코드를 작성해주세요
+SELECT COUNT(*) AS FISH_COUNT
+FROM FISH_INFO
+-- 조건 2021년도에 잡은 물고기 수 
+WHERE DATE_FORMAT(TIME, '%Y') = '2021'
