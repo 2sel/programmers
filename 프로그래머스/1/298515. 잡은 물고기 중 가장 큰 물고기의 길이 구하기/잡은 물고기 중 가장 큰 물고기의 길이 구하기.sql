@@ -1,0 +1,6 @@
+-- 코드를 작성해주세요
+SELECT CONCAT(LENGTH, 'cm') AS MAX_LENGTH
+FROM FISH_INFO
+-- 내림차순으로 해서 가장 큰 값을 구하기
+ORDER BY LENGTH DESC
+LIMIT 1 
