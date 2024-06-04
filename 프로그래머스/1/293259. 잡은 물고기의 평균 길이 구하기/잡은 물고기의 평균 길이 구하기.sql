@@ -1,0 +1,4 @@
+-- 코드를 작성해주세요
+-- 조건 : 10CM이하는 10CM로 취급 (현재 NULL로 되어있음) / ROUND - 반올림
+SELECT ROUND(SUM(IFNULL(LENGTH, 10))/COUNT(*),2) AS AVERAGE_LENGTH
+FROM FISH_INFO
