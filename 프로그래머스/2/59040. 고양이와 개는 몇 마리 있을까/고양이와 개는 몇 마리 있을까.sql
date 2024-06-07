@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+SELECT ANIMAL_TYPE, COUNT(*) AS COUNT
+FROM ANIMAL_INS 
+-- 고양이, 개가 각각 몇 마리인지 조회/ 고양이 먼저
+GROUP BY ANIMAL_TYPE
+ORDER BY ANIMAL_TYPE
