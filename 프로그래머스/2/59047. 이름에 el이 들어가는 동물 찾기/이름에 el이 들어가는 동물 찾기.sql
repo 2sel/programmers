@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+-- 조건 : EL 이 들어가는 이름의 개 찾기
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE LOWER(NAME) LIKE LOWER('%el%')
+AND ANIMAL_TYPE = "Dog"
+ORDER BY NAME
