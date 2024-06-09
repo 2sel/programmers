@@ -1,0 +1,8 @@
+-- 코드를 입력하세요
+SELECT NAME, COUNT(NAME) AS 'COUNT'
+FROM ANIMAL_INS
+-- 조건 : 두 번이상 쓰인 이름, 이름이 쓰인 횟수 
+-- GROUP BY를 사용하면 조건을 줄 땐 HAVING 을 사용
+GROUP BY NAME
+HAVING COUNT(NAME) > 1
+ORDER BY NAME 
