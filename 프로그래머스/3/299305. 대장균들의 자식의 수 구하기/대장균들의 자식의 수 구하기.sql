@@ -1,0 +1,11 @@
+-- 코드를 작성해주세요
+-- 조건 : 자식이 없으면 0으로 출력 - PARENT_ID = NULL 인 경우? 
+-- IFNULL(COLUMN,대체값)
+SELECT ID, IFNULL(
+   ( SELECT COUNT(*)
+    FROM ECOLI_DATA
+    GROUP BY PARENT_ID
+    HAVING PARENT_ID = ID),0
+) AS CHILD_COUNT
+FROM ECOLI_DATA 
+ORDER BY ID
